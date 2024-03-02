@@ -1,0 +1,173 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+/* Ngô Võ Quang Minh - 21521129 */
+/* Sử dụng font-face để cài đặt font chữ */
+@font-face{
+  font-family: slab-serif;
+  src:url('TypoSlabserif-Light.ttf');
+}
+
+@font-face {
+  font-family:serifs ;
+  src:url('LTCushion-Light.ttf');
+}
+
+/* Sử dụng font chữ slab-serif cho tiêu đề */
+h1, h2{
+  font-family: slab-serif;
+  font-size: 2em;
+}
+
+/* Sử dụng font chữ serifs cho phần còn lại của trang */
+*{
+  font-family: serifs;
+  font-size: 10px;
+  line-height: 1.5;
+}
+/* Căn giữa tiêu đề */
+h1 {
+  text-align: center;
+}
+
+/* Thêm khoảng cách giữa các chữ trong phần tiêu đề */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 5px; /* Ví dụ: thêm khoảng cách 5px giữa các chữ */
+}
+
+/* Đặt khoảng cách giữa các từ và các chữ trong phần body */
+body {
+  word-spacing: 2px; /* Ví dụ: thêm khoảng cách 2px giữa các từ */
+  letter-spacing: 1px; /* Ví dụ: thêm khoảng cách 1px giữa các chữ */
+}
+
+/* Đặt đoạn đầu tiên sau mỗi tiêu đề trong phần tử <section> một chút thụt lề */
+section h2 + p {
+  text-indent: 20px; /* Ví dụ: thụt lề đoạn đầu tiên sau tiêu đề 20px */
+}
+
+/* Điều chỉnh các trạng thái của link */
+a:link{
+  color: #db8484;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #a94444;
+  text-decoration: underline;
+}
+
+a:hover{
+  color:#db2a2a;
+  text-decoration: none;
+}
+
+a:focus{
+  outline: none;
+  color:#b202f7;
+  text-decoration: none;
+}
+a:active{
+  color:red;
+  font-weight: bold;
+  text-decoration: none;
+} 
+
+/* Thêm ảnh external link đối với những link chuyển sang trang khác */
+a.external-link::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url('external-link-52.png') no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* Tạo kiểu cho menu điều hướng để phù hợp với trang */
+a.menu{
+  display:block;
+  padding: 10px 12px;
+  margin: 10px;
+  color: #a66;
+  background-color: white;
+  border: 1px solid #a66;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a.menu:focus{
+  color: white;
+  background-color: #a66;
+  border: none;
+}
+
+ul.menu{
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Đảm bảo các mục của danh sách và khoảng cách của danh sách phù hợp với tổng thể trang */
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+li {
+  line-height: 1.5;
+}
+
+/* Đặt mục đầu dòng cho order list theo alphabet */
+ol{
+  list-style-type:lower-alpha;
+}
+
+
+
