@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    width: 600px;
+    background-color: #DB95B9;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.headerText {
+    background-color: #CC3467;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.formItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 5px 0;
+    margin-right: 60px;
+    margin-left: 10px;
+    padding: 5px 0;
+}
+
+.formContainer .formItem label {
+    flex-basis: 38%;
+    margin: auto 0;
+}
+
+.formContainer .formItem input[type="text"] {
+    flex-basis: 56%;
+    padding: 6px 0;
+    border-top-color: #c0c0c0;
+    border-left-color: #c0c0c0;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    padding-left: 4px;
+    font-size: 16px;
+}
+
+.formContainer .formItem input[readOnly] {
+    background-color: #fffacd;
+}
+
+.formContainer .formItem input[type="text"]:focus-visible {
+    outline: none;
+}
+
+.formContainer .formBtn {
+    display: block;
+    background-color: #c0c0c0;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #c0c0c0;
+    border-bottom-color: #c0c0c0;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+}

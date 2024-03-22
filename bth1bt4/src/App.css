@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContainer{
+  margin: 0 auto;
+  width: 900px;
+  background-color: #EAF1F9;
+}
+
+.textHeader{
+  text-align: center;
+  background-color: #6A83A2;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+
+.formItemEnter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+.formContainer .formItemEnter label{
+  flex-basis: 38%;
+}
+
+.formContainer .enterInforContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formContainer .enterInforContainer .enterInfor{
+  flex: 8;
+}
+
+.adjustFlex{
+  flex: 1;
+}
+
+.formContainer .enterInforContainer textarea{
+  resize: none;
+  width: 100%;
+  border-top-color: #6c6c6c;
+  border-left-color: #6c6c6c;
+  border-right-color: rgba(0,0,0,0.2);
+  border-bottom-color: rgba(0,0,0,0.2);
+  border-width: 3px;
+  padding-left: 4px;
+  font-size: 16px;
+  padding: 4px 0;
+  padding-left: 4px;
+  margin: 10px 0;
+}
+
+.formContainer .enterInforContainer img{
+  width: 200px;
+  height: 200px;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.formContainer .classAndDayInputContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.formContainer input[type="checkbox"]{
+  margin: 10px 20px 10px 0;
+}
+
+.formContainer .formItemEnter input[type="text"]{
+  flex-basis: 100%;
+  padding: 4px 0;
+  border-top-color: #c0c0c0;
+  border-left-color: #c0c0c0;
+  border-right-color: rgba(0,0,0,0.2);
+  border-bottom-color: rgba(0,0,0,0.2);
+  border-width: 3px;
+  padding-left: 4px;
+  font-size: 16px;
+}
+
+.formContainer textarea:focus-visible{
+  outline: none;
+}
+
+.formContainer .formBtn{
+  display: block;
+  background-color: #c0c0c0;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.resultContainer{
+  background-color: #6A83A2;
+  color: #fff;
+  margin: 0 auto;
+  width: 900px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.resultContainer h1{
+  text-align: center;
+}
+
+.nameAndClass{
+  margin: 10px 0;
+}
+
+.dayAndTeacher{
+  margin: 10px 0;
+}
+
+.work{
+  margin: 10px 0;
+}
+
+.commitment{
+  margin: 10px 0;
+}

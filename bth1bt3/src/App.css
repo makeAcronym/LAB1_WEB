@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.placeListContainer {
+  margin: 0 auto;
+  width: 70%;
+  background-color: #CDCB98;
+  padding: 6px;
+}
+
+.textHeader {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #727139;
+  margin-bottom: 6px;
+  color: #fff;
+  padding: 4px 0;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.placeContainer {
+  display: flex;
+}
+
+.placeContainer .placeNameContainer {
+  flex: 1;
+  background-color: #fff;
+  align-self: flex-start;
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.placeContainer .placeNameContainer .textHeaderplaceNameContainer {
+  margin-bottom: 4px;
+}
+
+.placeContainer .placeNameContainer .placeNameTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.placeNameTextLink {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.placeContainer .placeContentContainer {
+  flex: 1;
+  background-color: #fff;
+}
+
+.placeContainer .placeContentContainer .placeContent img {
+  width: 200px;
+  height: 200px;
+}
+
+.placeContentContainer .placeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.placeNameText {
+  margin-bottom: 12px;
+}
+
+.backHeadPage {
+  font-size: 18px;
+}
