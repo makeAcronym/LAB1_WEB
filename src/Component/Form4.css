@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  .input-class-container {
+    display: flex;
+    align-items: center;
+  }
+  .input-class-container p{
+    margin: 0;
+    width: 100px;
+    text-align: left;
+    padding-right: 20px;
+  }
+  .input-class-container input {
+    flex: 1; /* Input sẽ mở rộng để chiếm phần còn lại của container */
+    margin-left: 10px; /* Khoảng cách giữa input và nhãn */
+    padding: 10px;
+    margin: 10px;
+  }
+  .input-container p {
+    margin: 0;
+    width: 250px; /* Độ rộng của nhãn */
+    text-align: left;
+    padding-right: 20px; /* Khoảng cách giữa nhãn và input */
+  }
+  
+  .input-container input {
+    flex: 1; /* Input sẽ mở rộng để chiếm phần còn lại của container */
+    margin-left: 10px; /* Khoảng cách giữa input và nhãn */
+    padding: 10px;
+    margin: 10px;
+  }
+  .undoner-container {
+    align-items: left;
+
+  }
+  .undoner-container textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+
+  }
+  .Phieu-container{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 20px;
+/* padding: auto; */
+  }
+  .Phieu-container p{
+    margin-left: 10px;
+  }
