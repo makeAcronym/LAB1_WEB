@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+h2 {
+  background-color: #6983A4;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  margin: 0;
+}
+.form {
+  background-color: #EAF1F9;
+  padding: 20px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+textarea {
+  width: 100%;
+  height: 60px;
+}
+
+.part1 {
+  display: flex;
+  justify-content: space-between;
+}
+.inputPart1 {
+  text-align: left;
+}
+.class_date {
+  display: flex;
+}
+.textarea {
+  display: block;
+}
+.resForm {
+  background-color: #6983A4;
+  color: white;
+  padding: 10px;
+}
+.part2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.info {
+  text-align: left;
+}
+.studentName , .teacherName , .class_date , .taskUndo {
+  margin: 5px;
+}
+.class {
+  margin-right: 5px;
+}
