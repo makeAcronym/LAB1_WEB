@@ -1,0 +1,66 @@
+.placeName {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.toTop {
+  font-size: 20px;
+}
+.container {
+  background-color: #cdcb98;
+  margin: auto;
+  width: 60%;
+  padding: 4px;
+}
+
+.title {
+  background-color: #727139;
+  text-align: center;
+  margin-bottom: 4px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.placeContainer {
+  display: flex;
+}
+
+.placeContainer .placesListContainer {
+  flex: 1;
+  background-color: #fff;
+  align-self: flex-start;
+  margin-right: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.placeContainer .placesListContainer .placesListName {
+  display: flex;
+  flex-direction: column;
+}
+
+.placeLink {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.placeContainer .placesInfoContainer {
+  flex: 1;
+  background-color: #fff;
+}
+
+.placesInfoContainer .placeInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+
+.placeContainer .placesInfoContainer .placeImg {
+  width: 250px;
+  height: 250px;
+}
+
